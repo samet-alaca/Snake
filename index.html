@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<!-- META TAGS -->
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Snake réalisé par Samet Alaca" />
+		<meta name="author" content="Samet Alaca" />
+
+		<title>Samet Alaca - Snake</title>
+
+		<!-- LINKS -->
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/index.css" />
+
+		<!-- SCRIPTS -->
+		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+
+		<script async type="text/javascript" src="js/index.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 canvas-container text-center">
+					<br>
+					<canvas id="canvas" width="800" height="640"></canvas>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 text-center replay">
+					<button class="btn btn-primary btn-play btn-lg"><i class="fa fa-play"></i> Jouer</button>&nbsp;&nbsp;
+					<p class="score">&nbsp;</p>
+				</div>
+				<div class="col-md-4">
+					<label for="music">
+						Musique : 
+						<div class="material-switch pull-right">
+							<input id="music" name="music" type="checkbox" checked/>
+							<label for="music" class="label-success"></label>
+						</div>
+					</label>
+					<br />
+					<label for="sound_effects">
+						Effets sonores : 
+						<div class="material-switch pull-right">
+							<input id="sound_effects" name="sound_effects" type="checkbox" checked/>
+							<label for="sound_effects" class="label-success"></label>
+						</div>
+					</label>
+					<br />
+					<br />
+					<p class="credits">
+						<b>Développement :</b> Samet Alaca (https://www.samet-alaca.fr)<br />
+						<b>Police :</b> Vin Rowe (www.vinrowe.com) <br />
+						<b>Musique :</b> "Double Violin Concerto 1st Movement – J.S. Bach" (http://freemusicpublicdomain.com) <br />
+						<b>Effets sonores :</b> https://www.freesound.org/ <br />
+						<b>Sprites :</b> http://rembound.com
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
